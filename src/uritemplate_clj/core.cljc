@@ -1,5 +1,5 @@
 (ns uritemplate-clj.core
-  (:require [ring.util.codec :as codec]
+  (:require [uritemplate-clj.codec :as codec]
             [clojure.string :as cs]
             [clojure.walk :as walk]))
 
